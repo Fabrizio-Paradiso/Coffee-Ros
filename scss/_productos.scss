@@ -1,0 +1,105 @@
+/* Products colours*/
+
+$color-gray-products: #212529;
+$color-hover-page: #5f362e;
+
+/* Products Styles */
+
+.menu__smart-button {
+  font-family: $font-text-type;
+  width: 150px;
+  border-radius: 0.3rem;
+  background-color: $color-gray-products;
+  border: $color-gray-products;
+}
+
+.dropdown-item {
+  font-family: $font-text-type;
+}
+
+.card-container {
+  font-family: $font-text-type;
+  width: 200px;
+  height: 280px;
+  margin: 1.2rem;
+
+  img {
+    height: 220px;
+  }
+}
+
+.btn-primary {
+  background-color: $color-gray-products !important;
+  border: transparent !important;
+  &:focus {
+    box-shadow: none;
+    border: transparent;
+  }
+}
+
+.card {
+  box-shadow: 2px 2px 2px 1px rgba(36, 34, 34, 0.2);
+  border-radius: 0.3rem;
+}
+
+.banner__products {
+  width: 100%;
+  height: 25vh;
+  background-image: url(../imgs/banner-products.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+.banner__products-title {
+  text-shadow: black 0.15rem 0.15rem;
+}
+
+#badge-bs {
+  background-color: $color-badge !important;
+}
+
+.modal-body {
+  font-family: $font-text-type;
+}
+
+.modal-footer {
+  button {
+    font-family: $font-text-type;
+    background-color: $color-gray-products;
+    a {
+      color: white;
+    }
+  }
+}
+
+.page-item {
+  a {
+    color: $color-gray-products;
+    &:hover {
+      color: $color-hover-page;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+/* Products Footer*/
+.footer__top {
+  background-color: $color-gray-products;
+  &-input {
+    width: 125px;
+    margin-left: 1rem;
+  }
+}
+
+.footer-logo {
+  height: 40px;
+  width: 60px;
+  border: 1px solid #00000012;
+  border-radius: 0.4rem;
+}
+
+.delivery__methods {
+  justify-content: start;
+}

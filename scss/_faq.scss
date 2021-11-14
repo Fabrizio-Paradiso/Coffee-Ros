@@ -1,0 +1,28 @@
+/* FAQ Colours */
+$color-faq: #000;
+$border-color-faq: #fff;
+$background-color-faq: #fff;
+$color-gray-faq: #212529;
+
+/* FAQ Styles */
+
+.accordion-button {
+  font-size: 1.2rem;
+  &:focus {
+    border-color: $border-color-faq;
+    box-shadow: none;
+  }
+  &:not(.collapsed) {
+    color: $color-faq;
+    border-color: $border-color-faq;
+    background-color: $background-color-faq;
+    box-shadow: $color-badge;
+  }
+}
+.collapsed {
+  color: $color-faq;
+}
+
+.accordion-body {
+  background-color: $color-gray-faq;
+}

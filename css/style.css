@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common Styles */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Kaushan Script", sans-serif;
+  background-color: #121212;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2.9rem;
+  font-weight: 1000;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 1000;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+a,
+p {
+  font-size: 1.2rem !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes scaling {
+  0% {
+    transform: scale(0.5, 0.4);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.01, 1.01);
+    opacity: 0.25;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+.section-bar {
+  width: 50%;
+  margin: -1rem auto 2rem auto;
+  border-top: solid white;
+}
+
+.hover-item:hover {
+  transition-duration: 300ms;
+  font-weight: bolder;
+  text-shadow: black 0.1rem 0.1rem;
+  transform: scale(1.05, 1.05);
+}
+
+.scaling-item:hover {
+  transition-duration: 600ms;
+  transform: scale(1.04, 1.04);
+}
+
+.button-cr:hover {
+  transform: scale(1.01, 1.01);
+}
+.button-cr:hover a {
+  color: #5f362e;
+}
+
+/* Footer */
+.footer__link {
+  color: white;
+}
+.footer__link i {
+  margin-right: 0.2rem;
+}
+.footer__link:hover {
+  color: white;
+  text-shadow: #332f2f7b 0.1rem 0.1rem;
+  transform: scale(1.05, 1.05);
+}
+
+.newsletter__input {
+  width: 195px;
+  height: 28px;
+}
+
+.newsletter__button {
+  height: 28px;
+}
+
+.footer-bar {
+  margin: 0.8rem auto 0.8rem auto;
+  border-top: solid white;
+}
+
+/* Products colours*/
+/* Products Styles */
+.menu__smart-button {
+  font-family: "Montserrat", sans-serif;
+  width: 150px;
+  border-radius: 0.3rem;
+  background-color: #212529;
+  border: #212529;
+}
+
+.dropdown-item {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-container {
+  font-family: "Montserrat", sans-serif;
+  width: 200px;
+  height: 280px;
+  margin: 1.2rem;
+}
+.card-container img {
+  height: 220px;
+}
+
+.btn-primary {
+  background-color: #212529 !important;
+  border: transparent !important;
+}
+.btn-primary:focus {
+  box-shadow: none;
+  border: transparent;
+}
+
+.card {
+  box-shadow: 2px 2px 2px 1px rgba(36, 34, 34, 0.2);
+  border-radius: 0.3rem;
+}
+
+.banner__products {
+  width: 100%;
+  height: 25vh;
+  background-image: url(../imgs/banner-products.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.banner__products-title {
+  text-shadow: black 0.15rem 0.15rem;
+}
+
+#badge-bs {
+  background-color: #fff !important;
+}
+
+.modal-body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.modal-footer button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #212529;
+}
+.modal-footer button a {
+  color: white;
+}
+
+.page-item a {
+  color: #212529;
+}
+.page-item a:hover {
+  color: #5f362e;
+}
+.page-item a:focus {
+  box-shadow: none;
+}
+
+/* Products Footer*/
+.footer__top {
+  background-color: #212529;
+}
+.footer__top-input {
+  width: 125px;
+  margin-left: 1rem;
+}
+
+.footer-logo {
+  height: 40px;
+  width: 60px;
+  border: 1px solid #00000012;
+  border-radius: 0.4rem;
+}
+
+.delivery__methods {
+  justify-content: start;
+}
+
+/* Contact Colours */
+/* Contact Styles */
+.btn-send {
+  background-color: #212529;
+}
+
+.form-check-input:checked {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+  font-family: inherit;
+}
+
+/* FAQ Colours */
+/* FAQ Styles */
+.accordion-button {
+  font-size: 1.2rem;
+}
+.accordion-button:focus {
+  border-color: #fff;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  border-color: #fff;
+  background-color: #fff;
+  box-shadow: #fff;
+}
+
+.collapsed {
+  color: #000;
+}
+
+.accordion-body {
+  background-color: #212529;
+}
+
+/* Retiros Styles */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 35%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 0.1rem;
+}
+
+/* Navigation bar */
+#navbar {
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.navbar {
+  background-color: #121212;
+  background: radial-gradient(circle, #0c0b0b 100%, #0d0d0d 100%, black 100%);
+  box-shadow: 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 1000;
+  font-size: 2rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  border: transparent;
+}
+
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+}
+
+.navbar-toggler-icon i {
+  color: #fff;
+  font-size: 25px;
+}
+
+/* Hero */
+.hero {
+  font-family: "Kaushan Script", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/home-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.hero__contain {
+  font-weight: bolder !important;
+  text-shadow: black 0.15rem 0.15rem;
+}
+
+#hero-text {
+  font-weight: bolder !important;
+  font-family: "Kaushan Script", sans-serif;
+}
+
+.link-home {
+  color: black;
+  font-family: "Kaushan Script", sans-serif;
+}
+.link-home:hover {
+  color: black;
+  background-color: white;
+}
+
+#button-hero {
+  box-shadow: 3px 3px 10px black;
+}
+
+.scaling-hero:hover {
+  transition-duration: 600ms;
+  color: #5f362e !important;
+  transform: scale(1.1, 1.1);
+}
+
+/* Suppliers */
+.suppliers {
+  margin-bottom: 2rem !important;
+}
+
+.suppliers__item {
+  margin-bottom: 4rem !important;
+  animation-duration: 2s;
+  animation-name: scaling;
+}
+.suppliers__item img {
+  opacity: 0.7;
+}
+.suppliers__item img:hover {
+  opacity: 1;
+  box-shadow: black 0.3rem 0.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

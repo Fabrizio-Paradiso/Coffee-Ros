@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Search Engine Optimization (SEO) -->
+    <title>Coffee Ros | Productos</title>
+    <meta
+      name="description"
+      content="Coffee Ros es un sitio web cuyo objetivo es promover la cultura del café de especialidad, promocionando los diversos productos que ofrecen los especialistas de Rosario, como así también cursos que hacen hincapié en lograr la perfección a la hora de preparar el café."
+    />
+    <meta
+      name="keywords"
+      content="cafe, bar, cafe cercano, cafe rosario, mejor cafe cercano, cafe alrededores, barista, cafe barista, cursos barista, cursos cafe, cafe especialidad, cafe especialista, maquina cafe, molienda, cafe grano, cafe molido, cafe tostado, cafe torrado, mejor cafe molido, mejor cafe, cafe envio, cafe molinillo, cafe tipo, cafe seleccion, cafe entrega, cafe domicilio, cafe reparto, cafe distribucion"
+    />
+    <!-- Fontawesome Navbar Icon -->
+    <script
+      src="https://kit.fontawesome.com/dfd137b0d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Kaushan Script Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap 5.1.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+    <!-- Animate Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../imgs/coffee_ros.ico" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="min-vh-100">
+    <header>
+      <!-- NAV BAR -->
+      <nav
+        class="
+          container-fluid
+          navbar navbar-expand-lg navbar-light
+          bg-light
+          justify-content-between
+        "
+      >
+        <div class="nav container">
+          <div class="navbar__brand">
+            <a class="navbar-brand d-flex hover-item" href="/">
+              <img src="../imgs/coffee_ros.jpg" alt="Coffee Ros Logo" />
+              <h3 class="my-auto ml-2 text-white">Coffee Ros</h3>
+            </a>
+          </div>
+          <div class="navbar__button">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon" id="btn-nav-icon">
+                <i class="fas fa-bars hover-item"></i>
+              </span>
+            </button>
+          </div>
+
+          <div
+            class="collapse navbar-collapse text-center justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav justify-content-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active hover-item"
+                  aria-current="page"
+                  href="/"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover-item" href="../productos/"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover-item" href="../retiros/">Retiros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover-item" href="../FAQ/">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover-item" href="../contacto/">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-grow-1 my-5">
+      <section class="container">
+        <div
+          class="
+            banner__products
+            d-flex
+            justify-content-center
+            align-items-center
+            w-100
+          "
+        >
+          <h1
+            class="
+              text-center text-white
+              scaling-item
+              banner__products-title
+              py-auto
+            "
+          >
+            Nuestros productos
+          </h1>
+        </div>
+        <div class="container mt-4 top__row d-md-flex justify-content-between">
+          <div class="top__row-links">
+            <span>
+              <a class="hover-item text-white" href="../"> Inicio > </a>
+              <a class="hover-item text-white" href="./"> Productos</a>
+            </span>
+          </div>
+          <div class="top__row-button d-none d-md-inline-flex">
+            <button
+              class="
+                menu__smart-button
+                btn btn-secondary
+                dropdown-toggle
+                text-white
+                button-cr
+              "
+              type="button"
+              id="dropdownMenuButton2"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-sort"></i> Ordenar por
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+              <li><a class="dropdown-item" href="#">Más Vendidos</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Precio: Menor a Mayor</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Precio: Mayor a Menor</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">A-Z</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Z-A</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mx-auto d-md-none mt-3">
+          <div class="menu__smart d-flex justify-content-around">
+            <button
+              class="
+                menu__smart-button
+                btn btn-secondary
+                dropdown-toggle
+                d-md-none
+              "
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-filter px-1"></i>Filtrar
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item" href="#">Marcas</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Países</a>
+              </li>
+            </ul>
+            <button
+              class="
+                menu__smart-button
+                btn btn-secondary
+                dropdown-toggle
+                text-white
+                button-cr
+              "
+              type="button"
+              id="dropdownMenuButton2"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-sort"></i> Ordenar por
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+              <li><a class="dropdown-item" href="#">Más Vendidos</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Precio: Menor a Mayor</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Precio: Mayor a Menor</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">A-Z</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Z-A</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="
+              categories
+              container
+              d-none
+              col-md-3
+              mt-2
+              text-white
+              d-md-flex
+              flex-column
+            "
+          >
+            <h2 class="categories-title hover-item">Categorías</h2>
+            <div class="link-coffee border-bottom mt-3">
+              <a class="text-white hover-item" href="./index.html">Café</a>
+              <i
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-coffee"
+                class="fa fa-angle-down text-white float-end ms-2 hover-item"
+              ></i>
+              <span id="badge-bs" class="badge bg-secondary float-end text-dark"
+                >6
+              </span>
+            </div>
+            <div class="collapse mt-2 ps-2" id="collapse-coffee">
+              <h5 class="scaling-item">
+                Brasil
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >3</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                Colombia
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >4</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                Ecuador
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >1</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                Etiopía
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >2</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                El Salvador
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >1</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                Nicaragua
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >1</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                México
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >2</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                Perú
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >1</span
+                >
+              </h5>
+            </div>
+            <div class="link-brands border-bottom mt-3">
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-brands"
+                class="text-white hover-item"
+                href="./"
+                >Marcas</a
+              >
+              <i
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse-brands"
+                class="
+                  fa fa-angle-down
+                  text-white
+                  float-end
+                  ms-2
+                  hover-item
+                  angle
+                "
+              ></i>
+              <span id="badge-bs" class="badge bg-secondary float-end text-dark"
+                >4
+              </span>
+            </div>
+
+            <div class="collapse mt-2 ps-2" id="collapse-brands">
+              <h5 class="scaling-item">
+                Caffetino
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >4</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                John & Joe
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >4</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                Modo Barista
+                <span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >4</span
+                >
+              </h5>
+              <h5 class="scaling-item">
+                Puerto Blest<span
+                  id="badge-bs"
+                  class="badge bg-secondary float-end text-dark"
+                  >4</span
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-9 row justify-content-center mx-auto">
+            <div class="card shadow card-container scaling-item my-3">
+              <img
+                src="../imgs/brands/puerto-blest-colombia.jpg"
+                class="img-responsive"
+                alt="Puerto Blest Colombia"
+              />
+              <div class="card-link my-2 mx-auto">
+                <button
+                  type="button"
+                  class="btn btn-primary text-center"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  <i class="fas fa-shopping-cart px-2"></i>Comprar
+                </button>
+              </div>
+            </div>
+            <div class="card shadow card-container scaling-item my-3">
+              <img
+                src="../imgs/brands/puerto-blest-nicaragua.jpg"
+                class="img-responsive"
+                alt="Puerto Blest Nicaragua"
+              />
+              <div class="card-link my-2 mx-auto">
+                <button
+                  type="button"
+                  class="btn btn-primary text-center"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  <i class="fas fa-shopping-cart px-2"></i>Comprar
+                </button>
+              </div>
+            </div>
+            <div class="card shadow card-container scaling-item my-3">
+              <img
+                src="../imgs/brands/puerto-blest-salvador.jpg"
+                class="img-responsive"
+                alt="Puerto Blest El Salvador"
+              />
+              <div class="card-link my-2 mx-auto">
+                <button
+                  type="button"
+                  class="btn btn-primary text-center"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  <i class="fas fa-shopping-cart px-2"></i>Comprar
+                </button>
+              </div>
+            </div>
+            <div class="card shadow card-container scaling-item my-3">
+              <img
+                src="../imgs/brands/puerto-blest-peru.jpg"
+                class="img-responsive"
+                alt="Puerto Blest Peru"
+              />
+              <div class="card-link my-2 mx-auto">
+                <button
+                  type="button"
+                  class="btn btn-primary text-center"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  <i class="fas fa-shopping-cart px-2"></i>Comprar
+                </button>
+              </div>
+            </div>
+            <div class="card shadow card-container scaling-item my-3">
+              <img
+                src="../imgs/brands/john-joe-brasil.png"
+                class="img-responsive"
+                alt="John & Joe Brasil"
+              />
+              <div class="card-link my-2 mx-auto">
+                <button
+                  type="button"
+                  class="btn btn-primary text-center"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  <i class="fas fa-shopping-cart px-2"></i>Comprar
+                </button>
+              </div>
+            </div>
+            <div class="card shadow card-container scaling-item my-3">
+              <img
+                src="../imgs/brands/john-joe-colombia.png"
+                class="img-responsive"
+                alt="John & Joe Colombia"
+              />
+              <div class="card-link my-2 mx-auto">
+                <button
+                  type="button"
+                  class="btn btn-primary text-center"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  <i class="fas fa-shopping-cart px-2"></i>Comprar
+                </button>
+              </div>
+            </div>
+            <div class="card shadow card-container scaling-item my-3">
+              <img
+                src="../imgs/brands/john-joe-ethiopia.png"
+                class="img-responsive"
+                alt="John & Joe Ethiopia"
+              />
+              <div class="card-link my-2 mx-auto">
+                <button
+                  type="button"
+                  class="btn btn-primary text-center"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  <i class="fas fa-shopping-cart px-2"></i>Comprar
+                </button>
+              </div>
+            </div>
+
+            <div class="card shadow card-container scaling-item my-3">
+              <img
+                src="../imgs/brands/john-joe-mexico.png"
+                class="img-responsive"
+                alt="John & Joe México"
+              />
+              <div class="card-link my-2 mx-auto">
+                <button
+                  type="button"
+                  class="btn btn-primary text-center"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  <i class="fas fa-shopping-cart px-2"></i>Comprar
+                </button>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">
+                      Lo sentimos
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    Por el momento el servicio de compra online no se encuentra
+                    disponible. Para más información ponte en contacto con
+                    nuestro personal.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav aria-label="Page navigation" id="page__navigation">
+            <ul class="pagination justify-content-center mt-5">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="./">1</a></li>
+              <li class="page-item">
+                <a class="page-link" href="./page2/">2</a>
+              </li>
+              <li class="page-item disabled">
+                <a class="page-link" href="#">...</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="./page2/">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="text-white bg-black mt-5">
+      <div class="footer__top">
+        <div
+          class="
+            row
+            container
+            payment__methods
+            py-3
+            justify-content-center
+            mx-auto
+          "
+        >
+          <h4 class="payment__methods-title col-lg-3 text-lg-start text-center">
+            Medios de pago
+          </h4>
+          <div
+            class="payment__methods-image col-lg-9 text-lg-start text-center"
+          >
+            <img
+              src="../imgs/brands/visa@2x.png"
+              class="footer-logo"
+              alt="visa"
+            />
+
+            <img
+              src="../imgs/brands/mastercard@2x.png"
+              class="footer-logo"
+              alt="mastercard"
+            />
+            <img
+              src="../imgs/brands/amex@2x.png"
+              class="footer-logo"
+              alt="amex"
+            />
+            <img
+              src="../imgs/brands/banelco@2x.png"
+              class="footer-logo"
+              alt="ar_banelco"
+            />
+            <img
+              src="../imgs/brands/cabal@2x.png"
+              class="footer-logo"
+              alt="ar_cabal"
+            />
+            <img
+              src="../imgs/brands/tarjeta-naranja@2x.png"
+              class="footer-logo"
+              alt="ar_tarjeta-naranja"
+            />
+            <img
+              src="../imgs/brands/mercadopago@2x.png"
+              class="footer-logo"
+              alt="mercadopago"
+            />
+            <img
+              src="../imgs/brands/nativa@2x.png"
+              class="footer-logo"
+              alt="nativa"
+            />
+            <img
+              src="../imgs/brands/pagofacil@2x.png"
+              class="footer-logo"
+              alt="pagofacil"
+            />
+            <img
+              src="../imgs/brands/rapipago@2x.png"
+              class="footer-logo"
+              alt="rapipago"
+            />
+          </div>
+        </div>
+        <div
+          class="
+            row
+            delivery__methods
+            container
+            pb-4
+            text-lg-start text-center
+            mx-auto
+          "
+        >
+          <h4 class="delivery__methods-title col-lg-3">Medios de envío</h4>
+          <div
+            class="delivery__methods-image col-lg-9 text-lg-start text-center"
+          >
+            <img
+              src="../imgs/brands/oca@2x.png"
+              class="footer-logo"
+              alt="ar_oca"
+            />
+
+            <img
+              src="../imgs/brands/correo-argentino@2x.png"
+              class="footer-logo"
+              alt="ar_correo-argentino"
+            />
+          </div>
+        </div>
+        <div class="text-center pb-3">
+          <img src="../imgs/brands/dataweb.jpg" title="DATAWEB" alt="DATAWEB" />
+        </div>
+      </div>
+      <div class="row container mx-auto pt-2 text-center text-lg-start">
+        <div class="col-lg-4 d-flex flex-column">
+          <h4 class="footer__link">CoffeeRos</h4>
+          <a class="footer__link" href="./"
+            ><i class="fas fa-shopping-bag"></i>Productos</a
+          >
+          <a class="footer__link" href="../retiros/"
+            ><i class="fas fa-box-open"></i>Retiros</a
+          >
+          <a class="footer__link" href="../FAQ/"
+            ><i class="fas fa-question-circle"></i>FAQ</a
+          >
+        </div>
+        <div class="col-lg-4 mt-3 mt-lg-0 text-center">
+          <h4 class="footer__link">Newsletter</h4>
+          <div class="footer__link newsletter mx-auto">
+            <form
+              action="https://formsubmit.co/36dfedff4b16e294cbb6c1f33b8adceb"
+              method="POST"
+            >
+              <input
+                class="newsletter__input"
+                type="email"
+                required
+                placeholder="Email"
+              />
+              <!-- Honeypot  -->
+              <input type="text" name="_honey" class="d-none" />
+
+              <!-- Disable Captcha -->
+              <input type="hidden" name="_captcha" value="false" />
+
+              <input
+                type="hidden"
+                name="_next"
+                value="https://coffeeros.netlify.app/contacto/suscribe/"
+              />
+
+              <button class="newsletter__button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 22 22"
+                  data-supported-dps="24x24"
+                  fill="currentColor"
+                  class="mercado-match"
+                  width="22"
+                  height="22"
+                  focusable="false"
+                >
+                  <path
+                    d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"
+                  ></path>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div
+          class="
+            col-lg-4
+            d-flex
+            flex-column
+            mt-3 mt-lg-0
+            text-center text-lg-end
+          "
+        >
+          <h4 class="footer__link">Redes Sociales</h4>
+          <a class="footer__link" href="https://facebook.com/" target="_blank">
+            <i class="fab fa-facebook"></i>Facebook
+          </a>
+
+          <a class="footer__link" href="https://instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>Instagram
+          </a>
+          <a class="footer__link" href="https://twitter.com/" target="_blank">
+            <i class="fab fa-twitter"></i>Twitter
+          </a>
+        </div>
+      </div>
+      <div class="footer-bar container"></div>
+      <div class="footer__brand text-center text-white p-1 w-100">
+        © 2021 Coffee Ros
+      </div>
+      <div class="footer__copyright text-center text-white p-1">
+        Todos los derechos reservados
+      </div>
+    </footer>
+  </body>
+</html>

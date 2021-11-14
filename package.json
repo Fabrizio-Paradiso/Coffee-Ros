@@ -1,0 +1,14 @@
+{
+  "name": "coffee-ros",
+  "version": "1.0.0",
+  "description": "Coffee Ros Specialty Coffee",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "author": "Fabrizio Paradiso",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}

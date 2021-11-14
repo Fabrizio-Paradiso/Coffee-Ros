@@ -1,0 +1,146 @@
+// Reset variables
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Colours variables
+$color-background: #121212;
+$color-hover: #5f362e;
+$color-shadow: #332f2f7b;
+$color-font-nav: #fff;
+$color-badge: #fff;
+
+// Font variables
+$font-type: "Kaushan Script", sans-serif;
+$font-text-type: "Montserrat", sans-serif;
+$font-weight: 1000;
+$line-height: 1.2;
+$big-font: 2.9rem;
+$medium-font: 2.4rem;
+$small-font: 2rem;
+$little-font: 1.2rem;
+
+// Nav variables
+$nav-icon-font: 25px;
+
+/* Common Styles */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: $font-type;
+  background-color: $color-background;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: $big-font;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+h2 {
+  font-size: $medium-font;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+h3 {
+  font-size: $small-font;
+}
+
+a,
+p {
+  font-size: $little-font !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: $font-text-type;
+}
+
+@keyframes scaling {
+  0% {
+    transform: scale(0.5, 0.4);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.01, 1.01);
+    opacity: 0.25;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+.section-bar {
+  width: 50%;
+  margin: -1rem auto 2rem auto;
+  border-top: solid white;
+}
+
+.hover-item {
+  &:hover {
+    transition-duration: 300ms;
+    font-weight: bolder;
+    text-shadow: black 0.1rem 0.1rem;
+    transform: scale(1.05, 1.05);
+  }
+}
+
+.scaling-item {
+  &:hover {
+    transition-duration: 600ms;
+    transform: scale(1.04, 1.04);
+  }
+}
+
+.button-cr {
+  &:hover {
+    transform: scale(1.01, 1.01);
+    a {
+      color: $color-hover;
+    }
+  }
+}
+
+/* Footer */
+
+.footer__link {
+  color: white;
+  i {
+    margin-right: 0.2rem;
+  }
+  &:hover {
+    color: white;
+    text-shadow: $color-shadow 0.1rem 0.1rem;
+    transform: scale(1.05, 1.05);
+  }
+}
+
+.newsletter__input {
+  width: 195px;
+  height: 28px;
+}
+.newsletter__button {
+  height: 28px;
+}
+
+.footer-bar {
+  margin: 0.8rem auto 0.8rem auto;
+  border-top: solid white;
+}
