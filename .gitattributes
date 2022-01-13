@@ -1,2 +1,2 @@
-*.html liguist-detectable=false
 *.css linguist-detectable=true
+*.html liguist-detectable=false
